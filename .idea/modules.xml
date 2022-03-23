@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accessmodifiers/accessmodifiers.iml" filepath="$PROJECT_DIR$/accessmodifiers/accessmodifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/methods/areacalculator/areacalculator.iml" filepath="$PROJECT_DIR$/methods/areacalculator/areacalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/methods/barkingdog/barkingdog.iml" filepath="$PROJECT_DIR$/methods/barkingdog/barkingdog.iml" />
