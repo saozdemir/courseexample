@@ -1,5 +1,7 @@
 package _sw20filechooserandfilter;
 
+import dummy.example.matchedscreen.SwingThemes;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,6 +19,12 @@ public class MainFrame extends JFrame {
 
     public MainFrame() {
         super("Hello World");
+        try {
+            UIManager.setLookAndFeel(SwingThemes.srt6);
+            SwingUtilities.updateComponentTreeUI(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         setLayout(new BorderLayout());
 
