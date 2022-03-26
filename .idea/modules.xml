@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/oopexamples/complexoperations/complexoperations.iml" filepath="$PROJECT_DIR$/oopexamples/complexoperations/complexoperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/controlflowstatements/controlflowstatements.iml" filepath="$PROJECT_DIR$/controlflowstatements/controlflowstatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/cylinderandpoolarea/cylinderandpoolarea.iml" filepath="$PROJECT_DIR$/cylinderandpoolarea/cylinderandpoolarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/methods/decimalcomparator/decimalcomparator.iml" filepath="$PROJECT_DIR$/methods/decimalcomparator/decimalcomparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/diagonalstar/diagonalstar.iml" filepath="$PROJECT_DIR$/diagonalstar/diagonalstar.iml" />
       <module fileurl="file://$PROJECT_DIR$/enums/enums.iml" filepath="$PROJECT_DIR$/enums/enums.iml" />
