@@ -21,7 +21,8 @@ public class PnlTableArea extends JPanel {
         tablePerson = new JTable(rowDescription);
 
         //tablePerson.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);/////
-        tablePerson.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);/////
+        tablePerson.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);//Otomatik Boyutlandırmayı kapatır.
+        tablePerson.getTableHeader().setReorderingAllowed(false);//Sürükle bırak özelliğini kapatır.
         tablePerson.getColumnModel().getColumn(0).setPreferredWidth(100);
         tablePerson.getColumnModel().getColumn(1).setPreferredWidth(300);
         tablePerson.getColumnModel().getColumn(2).setPreferredWidth(300);
@@ -29,5 +30,9 @@ public class PnlTableArea extends JPanel {
         //tableModel.getColumnName();
 
         this.add(new JScrollPane(tablePerson), BorderLayout.CENTER); //ScrollPane eklemeyince tablename çıkmadı!!!!
+    }
+
+    public JTable getTablePerson() {
+        return tablePerson;
     }
 }

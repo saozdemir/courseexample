@@ -15,4 +15,12 @@ public class PnlTableExample extends JPanel {
         this.add(pnlFormArea, BorderLayout.LINE_START);
         this.add(pnlTableArea, BorderLayout.CENTER);
     }
+
+    public PnlTableArea getPnlTableArea() {
+        return pnlTableArea;
+    }
+
+    public PnlFormArea getPnlFormArea() {
+        return pnlFormArea;
+    }
 }
