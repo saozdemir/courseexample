@@ -18,9 +18,13 @@ public class TableExampleRowDescription extends AbstractTableModel {
         personsList = new ArrayList<>();
         Person p1 = new Person(1, "Esra", "ÖZDEMİR");
         Person p2 = new Person(2, "Ahmet", "ÖZDEMİR");
+        Person p3 = new Person(3, "Badem", "ÖZDEMİR");
+        Person p4 = new Person(4, "Tarçın", "ÖZDEMİR");
 
         personsList.add(p1);
         personsList.add(p2);
+        personsList.add(p3);
+        personsList.add(p4);
     }
 
     @Override
@@ -52,6 +56,21 @@ public class TableExampleRowDescription extends AbstractTableModel {
     @Override
     public String getColumnName(int column) {
         return COLUMN_NAMES[column];
+    }
+
+    @Override
+    public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+        Person person = (Person) aValue;
+        switch (columnIndex) {
+            case ID:
+                person.setId((int) ((Person) aValue).getId());
+                break;
+            case NAME:
+                person.setName((String) person.getName());
+                break;
+            case SURNAME:
+                person.setSurname((String) person.getSurname());
+        }
     }
 
     public void getColumnSize(int column) {

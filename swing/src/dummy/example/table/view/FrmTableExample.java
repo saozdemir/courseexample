@@ -15,10 +15,11 @@ public class FrmTableExample extends JFrame {
         this.setLayout(new BorderLayout());
         this.setSize(new Dimension(800, 800));
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        controller = new CtrTableExample(this);
 
         pnlTableExample = new PnlTableExample();
         this.add(pnlTableExample, BorderLayout.CENTER);
+
+        controller = new CtrTableExample(this);// Controlleri tanımlarken en sonda tanımla yoksa nullpointer alırsın
     }
 
     public PnlTableExample getPnlTableExample() {
