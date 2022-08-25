@@ -1,6 +1,5 @@
 package _sw12events.example;
 
-import com.oracle.xmlns.internal.webservices.jaxws_databinding.JavaParam;
 
 import javax.swing.*;
 import java.awt.*;

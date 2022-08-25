@@ -1,6 +1,6 @@
 package dummy.example.table.controller;
 
-import com.sun.javafx.robot.impl.FXRobotHelper;
+
 import dummy.example.table.model.Person;
 import dummy.example.table.view.FrmTableExample;
 
