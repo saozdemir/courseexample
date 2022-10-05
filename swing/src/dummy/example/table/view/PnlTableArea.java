@@ -26,6 +26,11 @@ public class PnlTableArea extends JPanel {
         tablePerson.getColumnModel().getColumn(0).setPreferredWidth(100);
         tablePerson.getColumnModel().getColumn(1).setPreferredWidth(300);
         tablePerson.getColumnModel().getColumn(2).setPreferredWidth(300);
+//        tablePerson.setRowSelectionAllowed(true);
+//        tablePerson.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+        //tablePerson.setColumnSelectionAllowed(true);
+        tablePerson.setCellSelectionEnabled(true);
+        tablePerson.setBorder(BorderFactory.createEtchedBorder());
         //DefaultTableModel tableModel = new DefaultTableModel();
         //tableModel.getColumnName();
 
