@@ -1,0 +1,10 @@
+2022-59-26 12:59:49.295 Log Kaydı J3.2= A55R4 9 - (0)
+    TT=123 END TDL MESSAGE-----------------------------TDL transaction error, arg1[], arg2[], transaction error
+2022-59-26 12:59:49.805 Log Kaydı J3.2= G5654 9 - (1)
+    TT=123 END TDL MESSAGE-----------------------------TDL transaction error, arg1[], arg2[], args3[], transaction error
+2022-59-26 12:59:50.306 Log Kaydı J2.2=       9 - (2)
+    TT=123 END TDL MESSAGE-----------------------------TDL transaction error, arg1[], arg2[], transaction error
+2022-59-26 12:59:50.809 Log Kaydı J7.4=       9 - (3)
+    TT=123 END TDL MESSAGE-----------------------------TDL transaction error, arg1[], arg2[], args3[], args[]4, transaction error
+2022-59-26 12:59:51.313 Log Kaydı J3.2= F675H 9 - (4)
+    TT=123 END TDL MESSAGE-----------------------------TDL transaction error, arg1[], arg2[], transaction error
