@@ -95,4 +95,5 @@ public class DlgText extends JDialog {
     public void setDialogEventListener(DialogEventListener dialogEventListener) {
         this.dialogEventListener = dialogEventListener;
     }
+
 }

@@ -72,4 +72,5 @@ public class FrmMain extends JFrame {
     public void setBtnOpen(JButton btnOpen) {
         this.btnApprove = btnOpen;
     }
+
 }
