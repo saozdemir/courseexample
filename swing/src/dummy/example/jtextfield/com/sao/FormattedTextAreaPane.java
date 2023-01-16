@@ -24,7 +24,7 @@ public class FormattedTextAreaPane extends JPanel {
     private void init() {
         this.setLayout(new BorderLayout());
         textArea = new FormattedTextArea(maxSize, mask);
-        this.add(textArea, BorderLayout.CENTER);
+        this.add(new JScrollPane(textArea), BorderLayout.CENTER);
         this.add(lblSize, BorderLayout.PAGE_END);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
