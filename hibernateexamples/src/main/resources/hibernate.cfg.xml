@@ -4,25 +4,25 @@
 <hibernate-configuration>
     <session-factory>
 
-        <property name = "hibernate.dialect">
+        <property name="hibernate.dialect">
             org.hibernate.dialect.MySQLDialect
         </property>
 
-        <property name = "hibernate.connection.driver_class">
-            com.mysql.jdbc.Driver
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
         </property>
 
         <!-- Assume test is the database name -->
 
-        <property name = "hibernate.connection.url">
-            jdbc:mysql://localhost/person
+        <property name="hibernate.connection.url">
+            jdbc:mysql://localhost/POSTIT_DB
         </property>
 
-        <property name = "hibernate.connection.username">
+        <property name="hibernate.connection.username">
             root
         </property>
 
-        <property name = "hibernate.connection.password">
+        <property name="hibernate.connection.password">
             root
         </property>
 
@@ -32,8 +32,13 @@
 
         <property name="showsql">true</property>
 
+
         <!-- List of XML mapping files -->
-        <mapping resource = "Employee.hbm.xml"/>
+        <!--mapping resource = "Employee.hbm.xml"/-->
+        <mapping resource="person.hbm.xml"/>
+        <mapping resource="user.hbm.xml"/>
+<!--        <mapping resource="postit.hbm.xml"/>-->
+
 
     </session-factory>
 </hibernate-configuration>
