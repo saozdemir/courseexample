@@ -1,6 +1,7 @@
 package dummy.example.tableexample.editabletablemodel.view;
 
 import dummy.example.tableexample.editabletablemodel.abstractmodel.SpecialAbstractTableModel;
+import dummy.example.tableexample.editabletablemodel.abstractmodel.SpecialTableModel;
 import dummy.example.tableexample.editabletablemodel.data.Person;
 import dummy.example.tableexample.editabletablemodel.rowdescription.EditableTableRowDescription;
 import dummy.example.tableexample.editabletablemodel.rowdescription.EditableTableRowDescriptionSpecial;
@@ -47,7 +48,7 @@ public class PnlEditableTableSpecial extends JPanel {
 
     private void initSpecial() {
         rowDescSpecial = new EditableTableRowDescriptionSpecial();
-        tableModelSpecial = new SpecialAbstractTableModel<Person>(createPersonList(), rowDescSpecial);
+        tableModelSpecial = new SpecialTableModel<Person>(createPersonList(), rowDescSpecial);
         table = new TblEditableTableSpecial(tableModelSpecial);
 
         this.add(lblSelected, BorderLayout.PAGE_START);
@@ -71,7 +72,7 @@ public class PnlEditableTableSpecial extends JPanel {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 Person selectedPerson = (Person) table.getSelectedObject();
-                if(selectedPerson != null){
+                if (selectedPerson != null) {
                     lblSelected.setText(selectedPerson.getId() + " " +
                             selectedPerson.getName() + " " +
                             selectedPerson.getSurname());

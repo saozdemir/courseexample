@@ -4,7 +4,7 @@ import javax.swing.table.AbstractTableModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpecialAbstractTableModel<T> extends AbstractTableModel {
+public abstract class SpecialAbstractTableModel<T> extends AbstractTableModel {
     private List<T> rowDataList = null;
     private SpecialRowDescription<T> rowDescription;
     private Class[] columnClasses;
@@ -75,11 +75,43 @@ public class SpecialAbstractTableModel<T> extends AbstractTableModel {
         return result;
     }
 
-    private T getRowData(int row) {
+    public T getRowData(int row) {
         List<T> dataList = rowDataList;
         if (dataList != null && row >= 0 && row < getRowCount()) {
             return dataList.get(row);
         }
         return null;
+    }
+
+    public void setRowData(T data, int row) {
+        List<T> dataList = rowDataList;
+        if (dataList != null && row < getRowCount()) {
+            rowDataList.set(row, data);
+            fireTableRowsUpdated(row, row);
+        }
+    }
+
+    public void insertRowData(T data, int row) {
+        List<T> dataList = rowDataList;
+        if (dataList != null && row >= 0 && row < getRowCount()) {
+            rowDataList.add(row, data);
+            fireTableRowsInserted(row, row);
+        }
+    }
+
+    public void appendRowData(T data) {
+        List<T> dataList = rowDataList;
+        if (dataList != null) {
+            int n = dataList.size();
+            dataList.add(data);
+            fireTableRowsInserted(n, n);
+        }
+    }
+
+    public void clear() {
+        List<T> list = rowDataList;
+        if (list != null) {
+            list.clear();
+        }
     }
 }
