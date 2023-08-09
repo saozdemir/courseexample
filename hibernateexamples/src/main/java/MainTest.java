@@ -33,7 +33,7 @@ public class MainTest {
             transaction = session.beginTransaction();
 //            session.merge(person);
 //            session.merge(postIt);
-//            session.merge(user);
+            session.merge(user);
 //            transaction.commit();
 
         } catch (Exception e) {

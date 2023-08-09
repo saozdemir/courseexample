@@ -1,6 +1,5 @@
 package dummy.example.jtree;
 
-import sun.reflect.generics.tree.Tree;
 
 import javax.swing.*;
 import javax.swing.event.TreeSelectionEvent;

@@ -5,6 +5,8 @@ import dummy.example.table.model.Person;
 import dummy.example.table.view.FrmTableExample;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -26,6 +28,13 @@ public class CtrTableExample {
             public void mousePressed(MouseEvent e) {
                 int row = tablePerson.rowAtPoint(e.getPoint());
                 frame.getPnlTableExample().getPnlFormArea().getLblName().setText("Row: " + row);
+            }
+        });
+
+        tablePerson.getColumnModel().getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+            @Override
+            public void valueChanged(ListSelectionEvent e) {
+
             }
         });
     }

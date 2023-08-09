@@ -1,6 +1,7 @@
 package dummy.example.tableexample.editabletablemodel.view;
 
 import dummy.example.tableexample.editabletablemodel.abstractmodel.SpecialAbstractTableModel;
+import dummy.example.tableexample.editabletablemodel.abstractmodel.SpecialRowDescription;
 import dummy.example.tableexample.editabletablemodel.abstractmodel.SpecialTableModel;
 import dummy.example.tableexample.editabletablemodel.data.Person;
 import dummy.example.tableexample.editabletablemodel.rowdescription.EditableTableRowDescription;
@@ -9,6 +10,8 @@ import dummy.example.tableexample.editabletablemodel.rowdescription.EditableTabl
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -68,15 +71,63 @@ public class PnlEditableTableSpecial extends JPanel {
             }
         });
 
+//        table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+//            @Override
+//            public void valueChanged(ListSelectionEvent e) {
+//                Person selectedPerson = (Person) table.getSelectedObject();
+//                if (selectedPerson != null) {
+//                    lblSelected.setText(selectedPerson.getId() + " " +
+//                            selectedPerson.getName() + " " +
+//                            selectedPerson.getSurname());
+//                }
+//            }
+//        });
+
         table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
-                Person selectedPerson = (Person) table.getSelectedObject();
-                if (selectedPerson != null) {
-                    lblSelected.setText(selectedPerson.getId() + " " +
-                            selectedPerson.getName() + " " +
-                            selectedPerson.getSurname());
+                System.out.println("valueChanged");
+                int row = table.getSelectedRow();
+                int column = table.getSelectedColumn();
+                String name = (String) tableModelSpecial.getValueAt(row, column);//Burada nesne olacak.
+                System.out.println(name);
+                if(!name.equals("Date") && column == EditableTableRowDescription.NAME){
+                    table.getColumnModel().getColumn(EditableTableRowDescription.SURNAME).
+                            setCellEditor(new DefaultCellEditor(new JTextField()));
                 }
+            }
+        });
+
+//        table.getModel().addTableModelListener(new TableModelListener() {
+//            @Override
+//            public void tableChanged(TableModelEvent e) {
+//                System.out.println(e.getColumn());
+//
+//            }
+//        });
+
+        tableModelSpecial.addTableModelListener(new TableModelListener() {
+            @Override
+            public void tableChanged(TableModelEvent e) {
+                if (e.getType() == TableModelEvent.UPDATE) {
+                    int column = table.getSelectedColumn();
+                    if (column == EditableTableRowDescription.NAME) {
+                        int row = e.getFirstRow();
+                        System.out.println("col " + column + " row " + row);
+                        String firstName = (String) tableModelSpecial.getValueAt(row, column);
+                        if (firstName.equals("Date")) {
+                            String[] str = {"AAA", "BBB", "CCC"};
+                            table.getColumnModel().getColumn(EditableTableRowDescription.SURNAME).
+                                    setCellEditor(new DefaultCellEditor(new JComboBox<String>(new DefaultComboBoxModel<>(str))));
+                            //table.setCellEditor(new DefaultCellEditor(new JComboBox<String>(new DefaultComboBoxModel<>(str))));
+                        } else {
+                            table.getColumnModel().getColumn(EditableTableRowDescription.SURNAME).
+                                    setCellEditor(new DefaultCellEditor(new JTextField()));
+                        }
+                    }
+                }
+//                System.out.println("Table type " + e.getType());
+//                System.out.println("Table model " + table.getSelectedColumn());
             }
         });
     }

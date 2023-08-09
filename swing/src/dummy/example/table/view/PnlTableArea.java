@@ -29,7 +29,7 @@ public class PnlTableArea extends JPanel {
 //        tablePerson.setRowSelectionAllowed(true);
 //        tablePerson.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         //tablePerson.setColumnSelectionAllowed(true);
-        tablePerson.setCellSelectionEnabled(true);
+        tablePerson.setCellSelectionEnabled(true);//Hücre Hücere seçimi aktif eder.
         tablePerson.setBorder(BorderFactory.createEtchedBorder());
         //DefaultTableModel tableModel = new DefaultTableModel();
         //tableModel.getColumnName();
