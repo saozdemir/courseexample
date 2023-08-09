@@ -37,6 +37,8 @@
         <!--mapping resource = "Employee.hbm.xml"/-->
         <mapping resource="person.hbm.xml"/>
         <mapping resource="user.hbm.xml"/>
+<!--        <mapping resource="book.hbm.xml"/>-->
+<!--        <mapping resource="author.hbm.xml"/>-->
 <!--        <mapping resource="postit.hbm.xml"/>-->
 
 

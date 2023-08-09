@@ -1,5 +1,7 @@
 package com.sao.hibernate.database;
 
+import com.sao.hibernate.data.Author;
+import com.sao.hibernate.data.Book;
 import com.sao.hibernate.data.Person;
 import com.sao.hibernate.data.User;
 import org.apache.log4j.Logger;
@@ -21,6 +23,9 @@ public class HibernateUtil {
             Configuration configuration = new Configuration();
 //            configuration.addAnnotatedClass(Person.class);
 //            configuration.addAnnotatedClass(User.class);
+            configuration.addAnnotatedClass(Book.class);
+            configuration.addAnnotatedClass(Author.class);
+
             SessionFactory sessionFactory = configuration.configure("hibernate.cfg.xml").buildSessionFactory();
             return sessionFactory;
         } catch (Exception e) {
