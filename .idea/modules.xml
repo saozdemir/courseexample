@@ -4,49 +4,61 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accessmodifiers/accessmodifiers.iml" filepath="$PROJECT_DIR$/accessmodifiers/accessmodifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/areacalculator/areacalculator.iml" filepath="$PROJECT_DIR$/methods/areacalculator/areacalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/barkingdog/barkingdog.iml" filepath="$PROJECT_DIR$/methods/barkingdog/barkingdog.iml" />
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/complexoperations/complexoperations.iml" filepath="$PROJECT_DIR$/oopexamples/complexoperations/complexoperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/controlflowstatements/controlflowstatements.iml" filepath="$PROJECT_DIR$/controlflowstatements/controlflowstatements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cylinderandpoolarea/cylinderandpoolarea.iml" filepath="$PROJECT_DIR$/cylinderandpoolarea/cylinderandpoolarea.iml" />
       <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/decimalcomparator/decimalcomparator.iml" filepath="$PROJECT_DIR$/methods/decimalcomparator/decimalcomparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/date/date.iml" filepath="$PROJECT_DIR$/date/date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../designpattern/designpattern.iml" filepath="$PROJECT_DIR$/../designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/diagonalstar/diagonalstar.iml" filepath="$PROJECT_DIR$/diagonalstar/diagonalstar.iml" />
       <module fileurl="file://$PROJECT_DIR$/enums/enums.iml" filepath="$PROJECT_DIR$/enums/enums.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/equalityprinter/equalityprinter.iml" filepath="$PROJECT_DIR$/methods/equalityprinter/equalityprinter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/equalsumchecker/equalsumchecker.iml" filepath="$PROJECT_DIR$/methods/equalsumchecker/equalsumchecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/floor/floor.iml" filepath="$PROJECT_DIR$/oopexamples/floor/floor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../expenses/expenses.iml" filepath="$PROJECT_DIR$/../expenses/expenses.iml" />
       <module fileurl="file://$PROJECT_DIR$/flourpacker/flourpacker.iml" filepath="$PROJECT_DIR$/flourpacker/flourpacker.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/inputcalculator/inputcalculator.iml" filepath="$PROJECT_DIR$/oopexamples/inputcalculator/inputcalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gis_alone/gis_alone.iml" filepath="$PROJECT_DIR$/gis_alone/gis_alone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernateexamples/hibernateexamples.iml" filepath="$PROJECT_DIR$/hibernateexamples/hibernateexamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/inputoutput/inputoutput.iml" filepath="$PROJECT_DIR$/inputoutput/inputoutput.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceabtract/interfaceabtract.iml" filepath="$PROJECT_DIR$/interfaceabtract/interfaceabtract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernateexamples/jasperreports/jasperreports.iml" filepath="$PROJECT_DIR$/hibernateexamples/jasperreports/jasperreports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java11and14/java11and14.iml" filepath="$PROJECT_DIR$/java11and14/java11and14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../javafx/javafx.iml" filepath="$PROJECT_DIR$/../javafx/javafx.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagerstprime/lagerstprime.iml" filepath="$PROJECT_DIR$/lagerstprime/lagerstprime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/leapyear/leapyear.iml" filepath="$PROJECT_DIR$/methods/leapyear/leapyear.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/megabytesconverter/megabytesconverter.iml" filepath="$PROJECT_DIR$/methods/megabytesconverter/megabytesconverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/methods/methods.iml" filepath="$PROJECT_DIR$/methods/methods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/minutestoyearanddayscalculator/minutestoyearanddayscalculator.iml" filepath="$PROJECT_DIR$/methods/minutestoyearanddayscalculator/minutestoyearanddayscalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/areacalculator/methods.areacalculator.iml" filepath="$PROJECT_DIR$/methods/areacalculator/methods.areacalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/barkingdog/methods.barkingdog.iml" filepath="$PROJECT_DIR$/methods/barkingdog/methods.barkingdog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/decimalcomparator/methods.decimalcomparator.iml" filepath="$PROJECT_DIR$/methods/decimalcomparator/methods.decimalcomparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/equalityprinter/methods.equalityprinter.iml" filepath="$PROJECT_DIR$/methods/equalityprinter/methods.equalityprinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/equalsumchecker/methods.equalsumchecker.iml" filepath="$PROJECT_DIR$/methods/equalsumchecker/methods.equalsumchecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/leapyear/methods.leapyear.iml" filepath="$PROJECT_DIR$/methods/leapyear/methods.leapyear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/megabytesconverter/methods.megabytesconverter.iml" filepath="$PROJECT_DIR$/methods/megabytesconverter/methods.megabytesconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/minutestoyearanddayscalculator/methods.minutestoyearanddayscalculator.iml" filepath="$PROJECT_DIR$/methods/minutestoyearanddayscalculator/methods.minutestoyearanddayscalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/playingcat/methods.playingcat.iml" filepath="$PROJECT_DIR$/methods/playingcat/methods.playingcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/speedconverter/methods.speedconverter.iml" filepath="$PROJECT_DIR$/methods/speedconverter/methods.speedconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/teennumberchecker/methods.teennumberchecker.iml" filepath="$PROJECT_DIR$/methods/teennumberchecker/methods.teennumberchecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/controlflowstatements/numberinword/numberinword.iml" filepath="$PROJECT_DIR$/controlflowstatements/numberinword/numberinword.iml" />
       <module fileurl="file://$PROJECT_DIR$/controlflowstatements/numberofdaysinmonth/numberofdaysinmonth.iml" filepath="$PROJECT_DIR$/controlflowstatements/numberofdaysinmonth/numberofdaysinmonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/numberpalindrome/numberpalindrome.iml" filepath="$PROJECT_DIR$/numberpalindrome/numberpalindrome.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/oopexamples.iml" filepath="$PROJECT_DIR$/oopexamples/oopexamples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples2/oopexamples2.iml" filepath="$PROJECT_DIR$/oopexamples2/oopexamples2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/complexoperations/oopexamples.complexoperations.iml" filepath="$PROJECT_DIR$/oopexamples/complexoperations/oopexamples.complexoperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/cylinderandpoolarea/oopexamples.cylinderandpoolarea.iml" filepath="$PROJECT_DIR$/oopexamples/cylinderandpoolarea/oopexamples.cylinderandpoolarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/floor/oopexamples.floor.iml" filepath="$PROJECT_DIR$/oopexamples/floor/oopexamples.floor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/inputcalculator/oopexamples.inputcalculator.iml" filepath="$PROJECT_DIR$/oopexamples/inputcalculator/oopexamples.inputcalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/oopexamples2/oopexamples.oopexamples2.iml" filepath="$PROJECT_DIR$/oopexamples/oopexamples2/oopexamples.oopexamples2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/paintjob/oopexamples.paintjob.iml" filepath="$PROJECT_DIR$/oopexamples/paintjob/oopexamples.paintjob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/personexample/oopexamples.personexample.iml" filepath="$PROJECT_DIR$/oopexamples/personexample/oopexamples.personexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/point/oopexamples.point.iml" filepath="$PROJECT_DIR$/oopexamples/point/oopexamples.point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/simplecalculator/oopexamples.simplecalculator.iml" filepath="$PROJECT_DIR$/oopexamples/simplecalculator/oopexamples.simplecalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/sumoddrange/oopexamples.sumoddrange.iml" filepath="$PROJECT_DIR$/oopexamples/sumoddrange/oopexamples.sumoddrange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopexamples/wallarea/oopexamples.wallarea.iml" filepath="$PROJECT_DIR$/oopexamples/wallarea/oopexamples.wallarea.iml" />
       <module fileurl="file://$PROJECT_DIR$/packageexample/packageexample.iml" filepath="$PROJECT_DIR$/packageexample/packageexample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/paintjob/paintjob.iml" filepath="$PROJECT_DIR$/oopexamples/paintjob/paintjob.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/personexample/personexample.iml" filepath="$PROJECT_DIR$/oopexamples/personexample/personexample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/playingcat/playingcat.iml" filepath="$PROJECT_DIR$/methods/playingcat/playingcat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/point/point.iml" filepath="$PROJECT_DIR$/oopexamples/point/point.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/simplecalculator/simplecalculator.iml" filepath="$PROJECT_DIR$/oopexamples/simplecalculator/simplecalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/speedconverter/speedconverter.iml" filepath="$PROJECT_DIR$/methods/speedconverter/speedconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postit/postit.iml" filepath="$PROJECT_DIR$/postit/postit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sessionmanager/sessionmanager.iml" filepath="$PROJECT_DIR$/sessionmanager/sessionmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springweb/springweb.iml" filepath="$PROJECT_DIR$/springweb/springweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/staticandfinalstatement/staticandfinalstatement.iml" filepath="$PROJECT_DIR$/staticandfinalstatement/staticandfinalstatement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/sumoddrange/sumoddrange.iml" filepath="$PROJECT_DIR$/oopexamples/sumoddrange/sumoddrange.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swing/swing.iml" filepath="$PROJECT_DIR$/swing/swing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/methods/teennumberchecker/teennumberchecker.iml" filepath="$PROJECT_DIR$/methods/teennumberchecker/teennumberchecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swing/swing.swing.iml" filepath="$PROJECT_DIR$/swing/swing.swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swingdump/swing.swingdump.iml" filepath="$PROJECT_DIR$/swingdump/swing.swingdump.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oopexamples/wallarea/wallarea.iml" filepath="$PROJECT_DIR$/oopexamples/wallarea/wallarea.iml" />
     </modules>
   </component>
 </project>
